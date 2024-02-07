@@ -143,7 +143,7 @@ async function userExit(): Promise<boolean> {
 
     return exit
 }
-    
+
 
 async function todoFunction(): Promise<void> {
     await myBanner();
@@ -167,5 +167,4 @@ async function todoFunction(): Promise<void> {
 
 }
 
-todoFunction(); 
- 
+todoFunction();
