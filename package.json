@@ -1,9 +1,10 @@
 {
-  "name": "to_do_list",
+  "name": "to_do_list_hamzagul",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "./to_do_list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

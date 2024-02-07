@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 import { createSpinner } from "nanospinner";
 import showBanner from "node-banner";
-let todos = ["Okasha mari jan"];
+let todos = [];
 let time = (time = 2000) => new Promise((r) => (setTimeout(r, time)));
 async function myBanner() {
     showBanner('TO-DO LIST', 'You can add to-do , delete to-do, show to-do');
